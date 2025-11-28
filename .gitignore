@@ -16,4 +16,4 @@ foodturtle*.db
 # Build output (future-proof)
 frontend/dist/
 frontend/build/
-backend/dist/
+backend/dist/eslint
