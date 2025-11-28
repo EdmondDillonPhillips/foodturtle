@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+backend/logs/
+
+# Database
+foodturtle*.db
+*.db
+
+# Build output (future-proof)
+frontend/dist/
+frontend/build/
+backend/dist/
