@@ -9,3 +9,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Backend running on http://localhost:${port}`);
 });
+const logger = require('./logger');
+logger.info('Food Turtle backend started', { port: process.env.PORT || 3001 });
